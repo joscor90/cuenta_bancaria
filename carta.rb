@@ -7,7 +7,10 @@ class Carta
     end
 end
 
+cartas = []
 
+5.times do 
+    cartas.push(Carta.new)
+end
 
-
-
+pp cartas
