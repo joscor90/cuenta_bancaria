@@ -21,5 +21,9 @@ def numero_de_cuenta(cuenta)
 end
 
 #test variable
-c1 = CuentaBancaria.new('jose', 12345678)
+c1 = CuentaBancaria.new('jose', 12345678, 1)
+
+#testing numero_de_cuenta
+a = numero_de_cuenta(c1)
+
 
